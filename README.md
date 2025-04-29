@@ -1,43 +1,51 @@
-# Portfolio Website
+# React Portfólio
 
-This is a personal portfolio website designed to showcase my projects and provide a way for others to contact me.
+Este é um projeto de portfólio desenvolvido em React. Ele serve como uma vitrine para exibir seus projetos, habilidades e experiências de forma profissional e interativa.
 
-## Features
+## Funcionalidades
 
-- **Home Section**: Introduction and a brief overview of my skills.
-- **Portfolio Section**: Display of my projects with descriptions.
-- **Contact Section**: Contact form with location map.
-- **About Section**: About me
+- Exibição de projetos com descrições e links.
+- Seção de habilidades com ícones representativos.
+- Informações de contato para facilitar a comunicação.
+- Design responsivo para dispositivos móveis e desktops.
 
-## Screenshots
+## Tecnologias Utilizadas
 
-### Home Page
-![home](https://github.com/user-attachments/assets/5d81b23a-de79-4d8d-a451-e6ef51122884)
+- **React**: Biblioteca JavaScript para construção da interface.
+- **CSS**: Estilização do layout.
+- **JavaScript**: Lógica e interatividade.
 
-### Portfolio Page
-![projects](https://github.com/user-attachments/assets/597b8163-6a19-4baf-8418-b04c80cc8339)
+## Como Executar o Projeto
 
-### Contact Page
-![contact](https://github.com/user-attachments/assets/4124d887-5657-44b9-92f7-04b058f5241e)
-
-### About Page
-![about](https://github.com/user-attachments/assets/bd2d5e23-4e07-43e0-a262-1ace35258cd7)
-
-
-## Technologies Used
-
-- **HTML5 & CSS3**: For structuring and styling the website.
-- **JavaScript**: For interactive elements.
-- **Leaflet.js**: For the map integration on the contact page.
-- **FontAwesome**: For icons.
-- **Responsive Design**: Ensuring compatibility across devices.
-
-## Installation
-
-To view the portfolio locally, follow these steps:
-
-1. Clone the repository:
-
+1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
+2. Clone este repositório:
    ```bash
-   git clone https://github.com/sashwathan/react-portifolio.git
-   cd portfolio-website
+   git clone https://github.com/seu-usuario/react-portifolio.git
+   ```
+3. Navegue até o diretório do projeto:
+   ```bash
+   cd react-portifolio
+   ```
+4. Instale as dependências:
+   ```bash
+   npm install
+   ```
+5. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+6. Acesse o projeto no navegador em `http://localhost:3000`.
+
+## Estrutura do Projeto
+
+- `src/`: Contém os arquivos principais do projeto.
+  - `components/`: Componentes reutilizáveis.
+  - `pages/`: Páginas do portfólio.
+  - `assets/`: Imagens e outros recursos.
+- `public/`: Arquivos públicos.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+Feito com ❤️ por Lucas.
